@@ -1,6 +1,6 @@
-yii2-talma-fullcalendar-widget
+yii2-fullcalendar-widget
 ===========
-Widget for Yii Framework 2.0 to use [FullCalendar](http://arshaw.com/fullcalendar)
+Widget for Yii Framework 2.0 to use [FullCalendar](http://fullcalendar.io) (version 2.2.3), based on yii2-talma-fullcalendar-widget
 
 Installation
 ------------
@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist thiagotalma/yii2-fullcalendar "*"
+php composer.phar require --prefer-dist paolomanca/yii2-fullcalendar "*"
 ```
 
 or add
 
 ```
-"thiagotalma/yii2-fullcalendar": "*"
+"paolomanca/yii2-fullcalendar": "*"
 ```
 
 to the require section of your `composer.json` file.
