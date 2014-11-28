@@ -1,8 +1,8 @@
 {
-    "name": "thiagotalma/yii2-fullcalendar",
+    "name": "paolomanca/yii2-fullcalendar",
     "description": "Widget for Yii Framework 2.0 to use FullCalendar",
     "keywords": ["yii2", "extension", "widget", "calendar", "fullcalendar"],
-    "homepage": "https://github.com/thiagotalma/yii2-talma-fullcalendar-widget",
+    "homepage": "https://github.com/paolomanca/yii2-fullcalendar-widget",
     "type": "yii2-extension",
     "license": "BSD 3-Clause",
     "authors": [
@@ -10,16 +10,20 @@
             "name": "Thiago Talma",
             "email": "thiago@thiagomt.com",
             "homepage": "http://www.thiagomt.com/"
+        },
+        {
+            "name": "Paolo Manca"
         }
     ],
     "require": {
         "yiisoft/yii2": "*",
         "yiisoft/yii2-jui": "*"
     },
+    "prefer-stable": true,
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "talma\\": ""
+            "paolomanca\\": ""
         }
     }
 }
