@@ -74,7 +74,7 @@ class FullCalendar extends Widget
         $this->_hashOptions = $this->_pluginName . '_' . hash('crc32', serialize($options));
         $id = $this->options['id'];
         $view = $this->getView();
-        $view->registerJs("var {$this->_hashOptions} = {$options};\nvar calendar_{$this->options['id']};", $view::POS_HEAD);
+        $view->registerJs("var {$this->_hashOptions} = {$options};\nvar calendar_{$this->options['id']};", $view::POS_END);
         $js = "calendar_{$this->options['id']} = jQuery(\"#{$id}\").fullCalendar({$this->_hashOptions});";
         $asset = FullCalendarAsset::register($view);
         if (isset($this->config['lang'])) {
